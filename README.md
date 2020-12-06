@@ -5,6 +5,6 @@
     :construction: 
 </h2>
 <h3>
-    Projeto simples de uma versão mobile baseado no projeto de site 'Hello Cefet'     
+    Projeto simples de uma versão mobile.     
 </h3>
 
