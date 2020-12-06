@@ -6,12 +6,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App Cefet',
       theme: ThemeData(
-        
-        primarySwatch: Colors.blue[200],
-        
+                
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Home Page Cefet'),
+      home: MyHomePage(),
     );
   }
 }
