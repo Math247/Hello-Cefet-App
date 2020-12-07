@@ -19,20 +19,13 @@ class _MyHomePageState extends State<MyHomePage> {
           height: 70,
           color: Colors.blue[300],
         ),
-        
         leading: IconButton(
             icon: Icon(Icons.menu, color: Colors.blue[300]), onPressed: null),
-
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.settings, color: Colors.blue[300]),
               onPressed: null)
         ],
-        
-
-
-
-
       ),
       body: Stack(
         children: [
@@ -45,7 +38,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('text random'),
+                    Card(
+                      elevation: 5,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: ListTile(),
+                    )
                   ],
                 ),
               ],
